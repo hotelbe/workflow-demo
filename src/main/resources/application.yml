@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: workflow
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=master;encrypt=true;trustServerCertificate=true
+    username: sa
+    password: 1qaz@WSX3edc
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  activiti:
+    database-schema-update: true
+    history-level: full
+    db-history-used: true
+    security:
+      enabled: false

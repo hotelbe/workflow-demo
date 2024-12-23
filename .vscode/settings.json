@@ -1,0 +1,6 @@
+{
+    "windsurf.enableConfig": {
+        "*": true
+    },
+    "json.schemas": []
+}

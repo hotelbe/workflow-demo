@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-WorkflowApplication<vtd>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.lunti.credit.vtd.workflow.WorkflowApplication",
+            "projectName": "workflow",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
