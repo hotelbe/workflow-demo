@@ -1,7 +1,7 @@
 package com.lunti.credit.vtd.workflow.controller;
 
 import com.lunti.credit.vtd.workflow.service.MyService;
-import org.activiti.engine.task.Task;
+import org.flowable.task.api.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;

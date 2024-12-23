@@ -11,7 +11,7 @@ spring:
     username: sa
     password: 1qaz@WSX3edc
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-  activiti:
+  flowable:
     db-history-used: true
     history-level: full
     database-schema-update: true
