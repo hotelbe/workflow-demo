@@ -17,3 +17,6 @@ spring:
     db-history-used: true
     security:
       enabled: false
+  jpa:
+    hibernate:
+      ddl-auto: update
