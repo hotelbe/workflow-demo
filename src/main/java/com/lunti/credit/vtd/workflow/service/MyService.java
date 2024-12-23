@@ -1,5 +1,7 @@
 package com.lunti.credit.vtd.workflow.service;
 
+import java.util.List;
+
 import org.activiti.engine.RuntimeService;
 import org.activiti.engine.TaskService;
 import org.activiti.engine.task.Task;
@@ -7,9 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
-
 @Service
+@Transactional
 public class MyService {
 
     @Autowired

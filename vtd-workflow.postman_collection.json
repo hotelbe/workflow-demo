@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "983e902f-3b8e-43f4-9231-76c694d414aa",
+		"name": "vtd-workflow",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6097691",
+		"_collection_link": "https://kong999.postman.co/workspace/mb-architect~3de7e76f-b145-41d8-b34f-5ba7813b4239/collection/6097691-983e902f-3b8e-43f4-9231-76c694d414aa?action=share&source=collection_link&creator=6097691"
+	},
+	"item": [
+		{
+			"name": "01-activiti-start-process",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/process",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"process"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "02-activiti-tasks-assignee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tasks?assignee=kermit",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "assignee",
+							"value": "kermit"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

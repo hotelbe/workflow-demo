@@ -12,8 +12,14 @@ spring:
     password: 1qaz@WSX3edc
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
   activiti:
-    database-schema-update: true
-    history-level: full
     db-history-used: true
-    security:
-      enabled: false
+    history-level: full
+    database-schema-update: true
+    process-definition-location-prefix: classpath:/processes/
+    async-executor-activate: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServerDialect
