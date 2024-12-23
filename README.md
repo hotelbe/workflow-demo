@@ -14,7 +14,7 @@ This project demonstrates how to integrate and use workflow engines with Spring 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-repo/workflow-demo.git
+    git clone https://github.com/hotelbe/workflow-demo.git
     cd workflow-demo
     ```
 
